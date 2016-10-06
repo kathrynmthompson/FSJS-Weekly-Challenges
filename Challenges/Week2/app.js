@@ -7,21 +7,22 @@
 
 //Alert user results
 
-
 function processInput(message)
 {
-  if message === "Hello")
+  if(message === "Hello!")
+  {
+    return ("Hello world!");
+  }
+  else {
+    return("You didn't say hello :(");
+  }
 }
-{
-  return ("Hello world!");
-}else {
-  return ("You didn't say hello :()");
-}
-}
-var userInput;
-var response:
 
-userIput = prompt();
-response = processInput(userIput);
+var userInput;
+var response;
+
+userInput = prompt();
+
+response = processInput(userInput);
 
 alert(response);
